@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Daily Legend</string>
     <string name="placeholder">Placeholder</string>
+    <string name="todorepeat">To Do (Repeatable)</string>
+    <string name="todosingle">To Do (Single-Time)</string>
+    <string name="todoitem">To Do Item</string>
+    <string name="finishlist">Save List</string>
 </resources>
