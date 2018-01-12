@@ -27,7 +27,7 @@ public class ToDoListItem {
 
         ArrayList<ToDoListItem> outputList = new ArrayList<>();
 
-        for(int i = 0; i < 5; ++i){
+        for(int i = 0; i < 25; ++i){
             outputList.add(new ToDoListItem("Item " + i, true));
         }
 

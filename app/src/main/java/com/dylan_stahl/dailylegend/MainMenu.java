@@ -17,9 +17,10 @@ public class MainMenu extends AppCompatActivity {
         Button gameSetupBtn = findViewById(R.id.GameSetupBtn);
         Button characterBtn = findViewById(R.id.PlayerSetup);
         Button settingsBtn = findViewById(R.id.SettingsBtn);
+
     }
 
-    private void goToToDoList(View view){
+    public void goToToDoList(View view){
         Intent intent = new Intent(this, ToDoListEntry.class);
         startActivity(intent);
     }
